@@ -1,0 +1,5 @@
+{
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.defaultInterpreterPath": "/Users/mztr/Coding/django/django-recipe/django-recipe/.venv/bin/python3",
+    "python.venvPath": "${workspaceFolder}/.venv",
+}

@@ -55,10 +55,15 @@ INSTALLED_APPS = [
     
     # Other
     'crispy_forms',
-    'crispy_bootstrap5'
+    'crispy_bootstrap5',
+    'cloudinary',
+    'cloudinary_storage',
+    'tinymce',
 ]
 
 SITE_ID = 1
+
+
 
 
 MIDDLEWARE = [
@@ -174,6 +179,34 @@ LOGIN_REDIRECT_URL = '/'
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+# Add this line to specify the directory where static files will be collected
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Cloudinary Settings
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
+
+# TinyMCE config settings
+TINYMCE_DEFAULT_CONFIG = {
+    "theme": "silver",
+    "skin": "oxide",
+    "width": 400,
+    "height": 500,
+    "branding": False,
+    "promotion": False,
+    "selector": "textarea",
+    "plugins": "preview importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap pagebreak nonbreaking anchor insertdatetime advlist lists wordcount help charmap quickbars emoticons accordion",
+    "menubar": "file edit view insert format tools table help",
+    "toolbar1": "undo redo | bullist numlist outdent indent |",
+    "toolbar2": "styles | bold italic backcolor | alignleft aligncenter | code |",
+    
+    "statusbar": "wordcount",
+    
+}
+
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

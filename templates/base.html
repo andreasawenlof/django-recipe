@@ -37,5 +37,8 @@
         </main>
 
         {% include 'includes/footer.html' %}
+        {% if include_tinymce %}
+            <script src="{% static 'js/tinymce_admin_theme.js' %}"></script>
+        {% endif %}
     </body>
 </html>

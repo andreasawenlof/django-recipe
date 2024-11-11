@@ -19,12 +19,11 @@ class RecipeForm(forms.ModelForm):
             "cuisine_types",
             "calories",
         ]
-        
+
         widgets = {
             "description": forms.Textarea(attrs={"rows": 5}),
             "ingredients": TinyMCE(),
             "instructions": TinyMCE(),
-            
         }
 
         labels = {

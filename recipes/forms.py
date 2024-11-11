@@ -19,16 +19,12 @@ class RecipeForm(forms.ModelForm):
             "cuisine_types",
             "calories",
         ]
-
-        ingredients = forms.CharField(widget=TinyMCE())
-        imstructions = forms.CharField(widget=TinyMCE())
-
-        widget = {
-            "description": forms.Textarea(
-                attrs={
-                    "rows": 5,
-                }
-            ),
+        
+        widgets = {
+            "description": forms.Textarea(attrs={"rows": 5}),
+            "ingredients": TinyMCE(),
+            "instructions": TinyMCE(),
+            
         }
 
         labels = {

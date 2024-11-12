@@ -13,7 +13,7 @@
                     <img src=" {{ recipe.image.url }}" class="card-img-top" alt="{{ recipe.image_alt }}" />
                     <div class="card-body">
                         <h2 class="card-title">{{ recipe.title }}</h2>
-                        <p class="card-text">{{ recipe.description|truncatechars:100 }}</p>
+                        <p class="card-text">{{ recipe.description|truncatechars:100|safe }}</p>
                     </div>
                 </div>
             </a>

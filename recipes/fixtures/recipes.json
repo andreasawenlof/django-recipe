@@ -1,50 +1,98 @@
 [
     {
-        "title": "Vegetable Stir Fry",
-        "description": "A quick and healthy vegetable stir fry with a savory sauce.",
-        "instructions": "<p>Chop vegetables, stir fry in sesame oil, add soy sauce, cook until tender.</p>",
-        "ingredients": "<ul><li>Broccoli</li><li>Bell peppers</li><li>Carrots</li><li>Onions</li><li>Garlic</li><li>Soy sauce</li><li>Sesame oil</li></ul>",
-        "image": "recipes/vegetable_stir_fry.webp",
-        "image_alt": "Colorful stir fry with broccoli, peppers, and carrots",
-        "meal_type": "Main Course",
-        "cuisine_types": "Asian",
-        "calories": 250,
-        "user": 3
+        "model": "recipes.recipe",
+        "fields": {
+            "title": "Vegetable Stir Fry",
+            "description": "A quick and healthy vegetable stir fry with a savory sauce.",
+            "instructions": "<p>Chop vegetables, stir fry in sesame oil, add soy sauce, cook until tender.</p>",
+            "ingredients": "<ul><li>Broccoli</li><li>Bell peppers</li><li>Carrots</li><li>Onions</li><li>Garlic</li><li>Soy sauce</li><li>Sesame oil</li></ul>",
+            "image": "recipes/vegetable_stir_fry.webp",
+            "image_alt": "Colorful stir fry with broccoli, peppers, and carrots",
+            "meal_type": "Main Course",
+            "cuisine_types": "Asian",
+            "calories": 250,
+            "user": 3,
+            "posted_date": "2023-06-01T12:00:00Z"
+        }
     },
     {
-        "title": "Classic Caesar Salad",
-        "description": "A fresh Caesar salad with crispy romaine lettuce and tangy dressing.",
-        "instructions": "<p>Toss lettuce with dressing, add cheese and croutons, top with anchovies if desired.</p>",
-        "ingredients": "<ul><li>Romaine lettuce</li><li>Caesar dressing</li><li>Parmesan cheese</li><li>Croutons</li><li>Anchovies (optional)</li></ul>",
-        "image": "recipes/caesar_salad.webp",
-        "image_alt": "Caesar salad with Parmesan and croutons",
-        "meal_type": "Side Dish",
-        "cuisine_types": "Italian",
-        "calories": 180,
-        "user": 3
+        "model": "recipes.recipe",
+        "fields": {
+            "title": "Classic Caesar Salad",
+            "description": "A fresh Caesar salad with crispy romaine lettuce and tangy dressing.",
+            "instructions": "<p>Toss lettuce with dressing, add cheese and croutons, top with anchovies if desired.</p>",
+            "ingredients": "<ul><li>Romaine lettuce</li><li>Caesar dressing</li><li>Parmesan cheese</li><li>Croutons</li><li>Anchovies (optional)</li></ul>",
+            "image": "recipes/caesar_salad.webp",
+            "image_alt": "Caesar salad with Parmesan and croutons",
+            "meal_type": "Side Dish",
+            "cuisine_types": "Italian",
+            "calories": 180,
+            "user": 3,
+            "posted_date": "2023-06-02T12:00:00Z"
+        }
     },
     {
-        "title": "Chicken Tacos",
-        "description": "Spicy grilled chicken tacos with fresh salsa and guacamole.",
-        "instructions": "<p>Season chicken, grill until cooked, assemble tacos with salsa, guacamole, and toppings.</p>",
-        "ingredients": "<ul><li>Chicken breast</li><li>Taco seasoning</li><li>Tortillas</li><li>Salsa</li><li>Guacamole</li><li>Lettuce</li><li>Cheese</li></ul>",
-        "image": "recipes/chicken_tacos.webp",
-        "image_alt": "Three chicken tacos with salsa and guacamole",
-        "meal_type": "Main Course",
-        "cuisine_types": "Mexican",
-        "calories": 350,
-        "user": 3
+        "model": "recipes.recipe",
+        "fields": {
+            "title": "Chocolate Chip Cookies",
+            "description": "Classic homemade chocolate chip cookies, soft and chewy.",
+            "instructions": "<p>Cream butter and sugars, add eggs and vanilla, mix in dry ingredients, fold in chocolate chips, bake until golden.</p>",
+            "ingredients": "<ul><li>Flour</li><li>Butter</li><li>Brown sugar</li><li>White sugar</li><li>Eggs</li><li>Vanilla extract</li><li>Baking soda</li><li>Salt</li><li>Chocolate chips</li></ul>",
+            "image": "recipes/chocolate_chip_cookies.webp",
+            "image_alt": "Plate of chocolate chip cookies",
+            "meal_type": "Dessert",
+            "cuisine_types": "American",
+            "calories": 150,
+            "user": 3,
+            "posted_date": "2023-06-03T12:00:00Z"
+        }
     },
     {
-        "title": "Blueberry Pancakes",
-        "description": "Fluffy pancakes filled with fresh blueberries, perfect for breakfast.",
-        "instructions": "<p>Mix ingredients, pour batter on griddle, add blueberries, cook until golden brown.</p>",
-        "ingredients": "<ul><li>Flour</li><li>Baking powder</li><li>Eggs</li><li>Milk</li><li>Blueberries</li><li>Sugar</li><li>Butter</li></ul>",
-        "image": "recipes/blueberry_pancakes.webp",
-        "image_alt": "Stack of blueberry pancakes with syrup",
-        "meal_type": "Breakfast",
-        "cuisine_types": "American",
-        "calories": 400,
-        "user": 3
+        "model": "recipes.recipe",
+        "fields": {
+            "title": "Spaghetti Carbonara",
+            "description": "Creamy Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
+            "instructions": "<p>Cook pasta, fry pancetta, mix eggs and cheese, toss hot pasta with egg mixture and pancetta, season with black pepper.</p>",
+            "ingredients": "<ul><li>Spaghetti</li><li>Eggs</li><li>Pecorino Romano cheese</li><li>Pancetta</li><li>Black pepper</li></ul>",
+            "image": "recipes/spaghetti_carbonara.webp",
+            "image_alt": "Plate of spaghetti carbonara",
+            "meal_type": "Main Course",
+            "cuisine_types": "Italian",
+            "calories": 500,
+            "user": 3,
+            "posted_date": "2023-06-04T12:00:00Z"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "fields": {
+            "title": "Guacamole",
+            "description": "Fresh and creamy avocado dip with lime and cilantro.",
+            "instructions": "<p>Mash avocados, mix in diced onion, tomato, cilantro, lime juice, and salt to taste.</p>",
+            "ingredients": "<ul><li>Avocados</li><li>Lime</li><li>Red onion</li><li>Tomato</li><li>Cilantro</li><li>Salt</li></ul>",
+            "image": "recipes/guacamole.webp",
+            "image_alt": "Bowl of guacamole with tortilla chips",
+            "meal_type": "Appetizer",
+            "cuisine_types": "Mexican",
+            "calories": 120,
+            "user": 3,
+            "posted_date": "2023-06-05T12:00:00Z"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "fields": {
+            "title": "Blueberry Pancakes",
+            "description": "Fluffy pancakes studded with fresh blueberries.",
+            "instructions": "<p>Mix dry ingredients, whisk in wet ingredients, fold in blueberries, cook on griddle until golden brown.</p>",
+            "ingredients": "<ul><li>Flour</li><li>Milk</li><li>Eggs</li><li>Baking powder</li><li>Sugar</li><li>Salt</li><li>Butter</li><li>Blueberries</li></ul>",
+            "image": "recipes/blueberry_pancakes.webp",
+            "image_alt": "Stack of blueberry pancakes with syrup",
+            "meal_type": "Breakfast",
+            "cuisine_types": "American",
+            "calories": 400,
+            "user": 3,
+            "posted_date": "2023-06-06T12:00:00Z"
+        }
     }
 ]

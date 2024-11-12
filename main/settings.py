@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     "home",
     "recipes",
     "profiles",
-    
+    "meal_planner",
     # Other
     "crispy_forms",
     "crispy_bootstrap5",

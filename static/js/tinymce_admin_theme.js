@@ -8,7 +8,6 @@ tinymce.init({
     menubar: false,  // Remove if not needed
     toolbar: "undo redo | blocks | bold italic underline | numlist bullist | fullscreen",
     image_advtab: true,
-    height: 300,
     branding: false,
     promotion: false,
     block_formats: 'Paragraph=p;Heading 1=h1;Heading 2=h2;Heading 3=h3',

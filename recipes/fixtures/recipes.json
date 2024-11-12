@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Vegetable Stir Fry",
+        "description": "A quick and healthy vegetable stir fry with a savory sauce.",
+        "instructions": "<p>Chop vegetables, stir fry in sesame oil, add soy sauce, cook until tender.</p>",
+        "ingredients": "<ul><li>Broccoli</li><li>Bell peppers</li><li>Carrots</li><li>Onions</li><li>Garlic</li><li>Soy sauce</li><li>Sesame oil</li></ul>",
+        "image": "recipes/vegetable_stir_fry.webp",
+        "image_alt": "Colorful stir fry with broccoli, peppers, and carrots",
+        "meal_type": "Main Course",
+        "cuisine_types": "Asian",
+        "calories": 250,
+        "user": 3
+    },
+    {
+        "title": "Classic Caesar Salad",
+        "description": "A fresh Caesar salad with crispy romaine lettuce and tangy dressing.",
+        "instructions": "<p>Toss lettuce with dressing, add cheese and croutons, top with anchovies if desired.</p>",
+        "ingredients": "<ul><li>Romaine lettuce</li><li>Caesar dressing</li><li>Parmesan cheese</li><li>Croutons</li><li>Anchovies (optional)</li></ul>",
+        "image": "recipes/caesar_salad.webp",
+        "image_alt": "Caesar salad with Parmesan and croutons",
+        "meal_type": "Side Dish",
+        "cuisine_types": "Italian",
+        "calories": 180,
+        "user": 3
+    },
+    {
+        "title": "Chicken Tacos",
+        "description": "Spicy grilled chicken tacos with fresh salsa and guacamole.",
+        "instructions": "<p>Season chicken, grill until cooked, assemble tacos with salsa, guacamole, and toppings.</p>",
+        "ingredients": "<ul><li>Chicken breast</li><li>Taco seasoning</li><li>Tortillas</li><li>Salsa</li><li>Guacamole</li><li>Lettuce</li><li>Cheese</li></ul>",
+        "image": "recipes/chicken_tacos.webp",
+        "image_alt": "Three chicken tacos with salsa and guacamole",
+        "meal_type": "Main Course",
+        "cuisine_types": "Mexican",
+        "calories": 350,
+        "user": 3
+    },
+    {
+        "title": "Blueberry Pancakes",
+        "description": "Fluffy pancakes filled with fresh blueberries, perfect for breakfast.",
+        "instructions": "<p>Mix ingredients, pour batter on griddle, add blueberries, cook until golden brown.</p>",
+        "ingredients": "<ul><li>Flour</li><li>Baking powder</li><li>Eggs</li><li>Milk</li><li>Blueberries</li><li>Sugar</li><li>Butter</li></ul>",
+        "image": "recipes/blueberry_pancakes.webp",
+        "image_alt": "Stack of blueberry pancakes with syrup",
+        "meal_type": "Breakfast",
+        "cuisine_types": "American",
+        "calories": 400,
+        "user": 3
+    }
+]

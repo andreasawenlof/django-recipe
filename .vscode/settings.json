@@ -2,4 +2,14 @@
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.defaultInterpreterPath": "/Users/mztr/Coding/django/django-recipe/django-recipe/.venv/bin/python3",
     "python.venvPath": "${workspaceFolder}/.venv",
+    "[django-html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "junstyle.vscode-django-support",
+        "editor.tabSize": 4,// Use VSCode's built-in HTML formatter
+        "editor.insertSpaces": true,
+        "editor.renderWhitespace": "none",
+        "editor.trimTrailingWhitespace": false,
+        "prettier.bracketSameLine": true
+    },
+    "editor.trimTrailingWhitespace": false,
 }
